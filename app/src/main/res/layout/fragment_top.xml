@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#FFFFFF"
+             android:orientation="vertical">
+
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/xrecyclerview_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:id="@+id/prograss_topnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateTint="?android:colorAccent"
+        android:indeterminateTintMode="src_in"
+        android:visibility="invisible"/>
+
+</FrameLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="压缩图片"
+        android:textSize="13sp"
+        android:textColor="@color/popupwindowTitleColor"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_current_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:text="当前图片"
+        android:textColor="@color/popupwindowTextColor"
+        android:textSize="18sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#F6F6F6"/>
+
+    <Button
+        android:id="@+id/btn_original_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="原始图片"
+        android:textColor="@color/popupwindowTextColor"
+        android:textSize="18sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#F6F6F6"/>
+
+    <Button
+        android:id="@+id/btn_image_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="自定义"
+        android:textColor="@color/popupwindowTextColor"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

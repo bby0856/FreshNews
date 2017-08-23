@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fliest.freshnews.MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:background="@color/colorPrimaryDark"/>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Fresh News"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+    
+
+
+    <com.example.fliest.freshnews.widget.NoScrollViewPager
+        android:id="@+id/viewpager_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.example.fliest.freshnews.widget.TabButtonGroup
+        android:id="@+id/tab_button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F6F6"
+        android:orientation="horizontal">
+
+
+        <com.example.fliest.freshnews.widget.BottomTabButton
+            android:id="@+id/news_bottom_tab_btn"
+            style="@style/BottomTabStyle"
+            app:clickSrc="@drawable/news_click"
+            app:clickTextColor="#EA413C"
+            app:src="@drawable/news_unclick"
+            app:text="FN"
+            app:unClickTextColor="#707070"/>
+
+        <com.example.fliest.freshnews.widget.BottomTabButton
+            android:id="@+id/zhihu_bottom_tab_btn"
+            style="@style/BottomTabStyle"
+            app:clickSrc="@drawable/news_click"
+            app:clickTextColor="#EA413C"
+            app:src="@drawable/news_unclick"
+            app:text="我"
+            app:unClickTextColor="#707070"/>
+    </com.example.fliest.freshnews.widget.TabButtonGroup>
+
+        <!--<com.example.fliest.freshnews.widget.BottomTabButton
+            android:id="@+id/beauty_bottom_tab_btn"
+            style="@style/BottomTabStyle"
+            app:clickSrc="@drawable/news_click"
+            app:clickTextColor="#EA413C"
+            app:src="@drawable/news_unclick"
+            app:text="福利"
+            app:unClickTextColor="#707070"/>
+
+        <com.example.fliest.freshnews.widget.BottomTabButton
+            android:id="@+id/vedio_bottom_tab_btn"
+            style="@style/BottomTabStyle"
+            app:clickSrc="@drawable/news_click"
+            app:clickTextColor="#EA413C"
+            app:src="@drawable/news_unclick"
+            app:text="视频"
+            app:unClickTextColor="#707070"/>
+
+        <com.example.fliest.freshnews.widget.BottomTabButton
+            android:id="@+id/me_bottom_tab_btn"
+            style="@style/BottomTabStyle"
+            app:clickSrc="@drawable/news_click"
+            app:clickTextColor="#EA413C"
+            app:src="@drawable/news_unclick"
+            app:text="我"
+            app:unClickTextColor="#707070"/>-->
+
+
+
+
+
+
+
+
+</LinearLayout>

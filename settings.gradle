@@ -1,0 +1,2 @@
+include ':app', ':test', 'looklook', 'xrecyclerview', ':xrecyclerview', ':jcvideoplayer-lib'
+include ':pagerindicatorlibrary'

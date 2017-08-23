@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.fliest.freshnews.widget.MoveableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moveablelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:gravity="center"
+    tools:context="com.example.fliest.freshnews.activity.ImageShowActivity">
+
+    <ImageView
+        android:id="@+id/imageview_show_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</com.example.fliest.freshnews.widget.MoveableLayout>

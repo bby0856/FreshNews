@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#E94D3D</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="topnewsTitleColor">#FFFFFF</color>
+    <color name="toolbarTrasparent">#3b000000</color>#888888
+    <color name="popupwindowTextColor">#1488E8</color>
+    <color name="popupwindowTitleColor">#888888</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="translucent">#00000000</color>
+    <color name="statueBarColor">#BDBDBD</color>
+    <color name="actionBarColor">#FAFAFA</color>
+</resources>

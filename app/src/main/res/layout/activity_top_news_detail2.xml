@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:background="@color/statueBarColor"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_detail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/actionBarColor">
+
+        <ImageView
+            android:id="@+id/image_left_back_tnd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:src="@drawable/left_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="网易新闻"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+    </android.support.v7.widget.Toolbar>
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/recycler_view_top_news_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+
+
